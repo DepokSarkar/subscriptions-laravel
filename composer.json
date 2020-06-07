@@ -1,6 +1,6 @@
 {
-    "name": "rinvex/laravel-subscriptions",
-    "description": "Rinvex Subscriptions is a flexible plans and subscription management system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful underlying to afford solid platform for your business.",
+    "name": "depoksarkar/subscriptions-laravel",
+    "description": "Depoksarkar Subscriptions is a flexible plans and subscription management system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful underlying to afford solid platform for your business.",
     "type": "library",
     "keywords": [
         "plan",
@@ -12,18 +12,17 @@
         "subscription"
     ],
     "license": "MIT",
-    "homepage": "https://rinvex.com",
+    "homepage": "https://depoksarkar.com",
     "support": {
-        "email": "help@rinvex.com",
-        "issues": "https://github.com/rinvex/laravel-subscriptions/issues",
-        "source": "https://github.com/rinvex/laravel-subscriptions",
-        "docs": "https://github.com/rinvex/laravel-subscriptions/blob/master/README.md"
+        "email": "help@depoksarkar.com",
+        "issues": "https://github.com/depoksarkar/subscriptions-laravel/issues",
+        "source": "https://github.com/depoksarkar/subscriptions-laravel",
+        "docs": "https://github.com/depoksarkar/subscriptions-laravel/blob/master/README.md"
     },
-    "authors": [
-        {
-            "name": "Rinvex LLC",
-            "homepage": "https://rinvex.com",
-            "email": "help@rinvex.com"
+    "authors": [{
+            "name": "Depoksarkar LLC",
+            "homepage": "https://depoksarkar.com",
+            "email": "help@depoksarkar.com"
         },
         {
             "name": "Abdelrahman Omran",
@@ -33,7 +32,7 @@
         },
         {
             "name": "The Generous Laravel Community",
-            "homepage": "https://github.com/rinvex/laravel-subscriptions/contributors"
+            "homepage": "https://github.com/depoksarkar/subscriptions-laravel/contributors"
         }
     ],
     "require": {
@@ -57,12 +56,12 @@
             "database"
         ],
         "psr-4": {
-            "Rinvex\\Subscriptions\\": "src"
+            "Depoksarkar\\Subscriptions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinvex\\Subscriptions\\Tests\\": "tests"
+            "Depoksarkar\\Subscriptions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -76,7 +75,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rinvex\\Subscriptions\\Providers\\SubscriptionsServiceProvider"
+                "Depoksarkar\\Subscriptions\\Providers\\SubscriptionsServiceProvider"
             ]
         }
     },
